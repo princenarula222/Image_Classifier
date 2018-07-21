@@ -10,6 +10,9 @@ Monkeys
 
 Cows
 
+For the web service API code along with the sample weights of this model, refer:
+ 
+ https://github.com/princenarula222/API_Image_Classifier
 
 # Dependencies
 Languages - Python
@@ -20,7 +23,7 @@ Additional environments - Jupyter Notebook
 
 
 # Train, test and save the model
-Run 'ImageClassification.ipynb' with Jupyter Notebook. Model file containing the architecture, weights and training configuration is saved as 'trained_model.h5' in the root folder.
+Run 'ImageClassification.ipynb' with Jupyter Notebook. Model weights are saved as 'model_weights.h5' in the root folder.
 I have provided a sample dataset in the 'cats-dogs-monkeys-cows' folder for reference. You may add your own images or modify the dataset altogether. Make sure you take care of the configured paths.
 
 
@@ -29,10 +32,10 @@ Results of training and testing the model on the sample dataset are as follows:
 
 Accuracy on Training-Set: 1.0000
 
-Loss on Training-Set: 0.2347
+Loss on Training-Set: 0.2596
 
 Accuracy on Validation-Set: 1.0000
 
-Loss on Validation-Set: 0.1593
+Loss on Validation-Set: 0.2279
 
 Confusion matrix is generated upon execution of 'ImageClassification.ipynb' with Jupyter Notebook.
